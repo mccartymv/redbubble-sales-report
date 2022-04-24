@@ -1,10 +1,6 @@
 module.exports = { 
     'shops' : [
         {
-            'name' : 'thisstoresucks',
-            'productRegex' : /^Every /
-        },
-        {
             'name' : 'squarebiz',
             'productRegex' : /^100% /
         },
