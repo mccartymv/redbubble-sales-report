@@ -12,7 +12,9 @@ For a Redbubble artist with a single shop, the only issue with aggregating multi
 However, an artist with multiple storefronts on Redbubble would typically want to see sales breakdowns seperated by store. Redbubble's CSV reports have no header contianing the store name and the default file name only contains a date.
 
 # The Solution
-With no storefront name in the CSV or the filename, we have to ask the user of redbubble-sales-report for a **Regular Expression**, one that will match the `Product` field of every product available in the shop. We need this info entered manually to the `config.js` file as below:<br>
+With no storefront name in the CSV or the filename, we have to ask the user of redbubble-sales-report for a **Regular Expression**, one that will match the `Work` field of every product that could potentially be sold from the shop. The script will then check the `Work` field of the first row from every CSV file in the target directory.
+
+We need this info entered manually to the `config.js` file as below:<br>
 ```
 module.exports = { 
     'shops' : [
