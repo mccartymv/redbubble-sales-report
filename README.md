@@ -9,7 +9,7 @@ Redbubble.com, a print-on-demand marketplace, offers its artist users sales repo
 ![alt text](https://github.com/mccartymv/redbubble-sales-report/blob/main/sales-report-screenshot.png?raw=true)<br><br>
 For a Redbubble artist with a single shop, the only issue with aggregating multiple sales reports is the potential redundancy, i.e. counting the same sale multiple times. This problem is easy enough to manage given each row's unique `Order #` field. 
 
-However, an artist with multiple storefronts on Redbubble would typically want to see sales breakdowns seperated by store. Redbubble's CSV reports have no header contianing the store name and the default file name only contains a date.
+However, an artist with multiple storefronts on Redbubble would typically want to see sales breakdowns seperated by store. Redbubble's CSV reports have no header containing the store name and the default file name only contains a date.
 
 # The Solution
 With no storefront name in the CSV or the filename, we have to ask the user of redbubble-sales-report for a **Regular Expression**, one that will match the `Work` field of every product that could potentially be sold from the shop. The script will then check the `Work` field of the first row from every CSV file in the target directory.
