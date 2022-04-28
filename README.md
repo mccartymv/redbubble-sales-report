@@ -34,5 +34,5 @@ module.exports = {
 ```
 Looking at the first item in the `shops` array, we have the name of one of our stores, `squarebiz`, and a Regular Expression, `/^100% /` which matches any string of text which begins with "100% ". This example corresponds to the output in the example at the top of this README.
 
-Not every shop would have such a strict naming convention that applies to every single product available of course. Luckily, regular expressions can take conditional rules, so a (large) regular expression could be written with the OR (|) operator that would match any artwork name in a store with many diverse product names. More information on conditional regular expressions is available [https://regexone.com/lesson/conditionals](https://regexone.com/lesson/conditionals).
+Not every shop would have such a strict naming convention that applies to every single product available of course. Luckily, regular expressions can take conditional rules, so a (large) regular expression could be written with the OR (|) operator that would match any artwork name in a store with many diverse product names. More information on conditional regular expressions is available here: [https://regexone.com/lesson/conditionals](https://regexone.com/lesson/conditionals).
 
