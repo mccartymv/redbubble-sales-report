@@ -7,7 +7,7 @@ example output:<br>
 # The Problem
 Redbubble.com, a print-on-demand marketplace, offers its artist users sales reports in CSV form. Every row in the document has details of a single sale and each report covers up to a six-month time period.<br><br>
 ![alt text](https://github.com/mccartymv/redbubble-sales-report/blob/main/sales-report-screenshot.png?raw=true)<br><br>
-For a Redbubble artist with a single shop, the only issue with aggregating multiple sales reports is the potential redundancy, i.e. counting the same sale multiple times. This problem is easy enough to manage given each row's unique `Order #` field. 
+For a Redbubble artist with a single shop, the only issue with aggregating multiple sales reports is the potential redundancy, i.e. counting the same sale multiple times. This risk is easy enough to avoid given each row's unique `Order #` field. 
 
 However, an artist with multiple storefronts on Redbubble would typically want to see sales breakdowns seperated by store. Redbubble's CSV reports have no header containing the store name and the default file name only contains a date.
 
