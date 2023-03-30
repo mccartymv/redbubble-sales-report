@@ -1,5 +1,16 @@
-# redbubble-sales-report
-Node.js script to aggregate artist sales report CSVs from multiple stores on redbubble.com and display a breakdown of sales by store in the console. Built with javascript promises and asynchronous pattens, this sales report script is engineered to process reports and display output very quickly.
+# Redbubble Sales Report
+
+A Node.js script to aggregate artist sales report CSVs from multiple stores on redbubble.com and display a breakdown of sales by store in the console. Built with JavaScript promises and asynchronous patterns, this sales report script is engineered to process reports and display output very quickly.
+
+The purpose of this script is to help Redbubble artists with multiple storefronts aggregate their sales data and view a breakdown of sales separated by store.
+
+## Table of Contents
+- [Problem](#the-problem)
+- [Solution](#the-solution)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 example output:<br>
 ![alt text](https://github.com/mccartymv/redbubble-sales-report/blob/main/squarebiz-earnings.png?raw=true)
