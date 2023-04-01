@@ -4,14 +4,6 @@ A Node.js script to aggregate artist sales report CSVs from multiple stores on r
 
 The purpose of this script is to help Redbubble artists with multiple storefronts aggregate their sales data and view a breakdown of sales separated by store.
 
-## Table of Contents
-- [Problem](#the-problem)
-- [Solution](#the-solution)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 example output:<br>
 ![alt text](https://github.com/mccartymv/redbubble-sales-report/blob/main/squarebiz-earnings.png?raw=true)
 
